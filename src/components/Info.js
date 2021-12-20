@@ -10,7 +10,7 @@ function Info() {
       <div className="info--details">
         <h1>Ugwuanyi Ekene</h1>
         <p className="info--role">Frontend Developer</p>
-        <p className="info--reach"><a href="https://ekeneugwuanyi.netlify.app/">portfolio</a></p>
+        <p className="info--reach"><a href="https://ekeneugwuanyi.netlify.app/" target="_blank" className="link">portfolio</a></p>
         <Button />
       </div>
     </div>
