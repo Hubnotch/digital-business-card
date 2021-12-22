@@ -7,22 +7,22 @@ import "../App.css";
 function Button() {
   return (
     <div className="button">
-      <a
+      <a className="btn email"
         href="mailto:love2ekene@gmail.com"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <button type="button" className="btn email">
+        <button type="button">
           <FontAwesomeIcon icon={faEnvelope} /> Email
         </button>
       </a>
 
-      <a
+      <a className="btn linkedin"
         href="https://www.linkedin.com/in/ekene-ugwuanyi/"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <button type="button" className="btn linkedin">
+        <button type="button" >
           <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
         </button>
       </a>
